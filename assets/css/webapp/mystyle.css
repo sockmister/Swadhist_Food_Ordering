@@ -1,0 +1,41 @@
+.instruction{ position:relative; padding-right: 20px; background: url(<?=ASSEST_URL?>images/webapp/mobile_template/img/icon-finger.png) no-repeat right center;height: 32px; line-height: 32px; font-size: 12px; color: @lightTextColor; &.lefter{ left: 3%; } .transitioner(all 0.4s);
+
+/* CSS Document */
+.ui-icon-login {
+	background: url("<?=ASSEST_URL?>images/webappmyicon.png") -18px -36px no-repeat rgba(0, 0, 0, 0.4) !important;
+}
+
+.ui-icon-my-account {
+	background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -0px -36px no-repeat rgba(0, 0, 0, 0.4) !important;
+}
+
+.ui-icon-question {
+	background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -36px -36px no-repeat rgba(0, 0, 0, 0.4) !important;
+}
+
+.ui-icon-bug {
+	background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -54px -36px no-repeat rgba(0, 0, 0, 0.4) !important;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+.ui-icon-login {
+	background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -18px -0px no-repeat rgba(0, 0, 0, 0.4) !important;
+	background-size: 72px 54px;
+}
+
+.ui-icon-my-account {
+	background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -0px -0px no-repeat rgba(0, 0, 0, 0.4) !important;
+	background-size: 72px 54px;
+}
+
+.ui-icon-question {
+	background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -36px -0px no-repeat rgba(0, 0, 0, 0.4) !important;
+	background-size: 72px 54px;
+}
+.ui-icon-bug {background: url("<?=ASSEST_URL?>images/webapp/myicon.png") -18px -27px no-repeat rgba(0, 0, 0, 0.4) !important;background-size: 72px 54px;}
+
+.nus_logo {height: 18px;width: 18px; background:url("<?=ASSEST_URL?>images/webapp/myicon.png") -36px -27px !important; float:left; position:absolute; background-size: 72px 54px;}
+}
+
+
